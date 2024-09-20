@@ -3,35 +3,47 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/styles.css" />
-    <title>AI poem Geneator</title>
+    <title>AI poem Generator</title>
   </head>
   <body>
     <header>
-    <h1>AI poem Geneator✍🏻</h1>
+      <h1>THE Poem Library✍🏻</h1>
     </header>
     <div class="container">
-    <main>
-      <form id="poem-generator" >
-        <input type="text" placeholder="Enter topic for the poem" autofocus required autocomplete="off" class="instructions" id="user-instructions">
-        <input type="submit" class="submit-button">
-      </form>
-      <div class="poem" id="poem">
-        <br>
-        
-      </div>
-    </main>
+      <main>
+        <div class="form-container">
+          <form id="poem-generator">
+            <input
+              type="text"
+              placeholder="Enter topic for the poem"
+              autofocus
+              required
+              autocomplete="off"
+              class="instructions"
+              id="user-instructions"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <small class="ie">e.g love,happiness,kindness,joy</small>
+          <div class="poem" id="poem">
+            <br />
+          </div>
+        </div>
+      </main>
 
-    <footer>
-      This AI poem Geneator was coded by pontsho lekoto and is open sourced on <a
-        href="https://github.com/michelle23-code/poem-generator"
-      >
-      GitHub</a
-      > and is hosted on <a href="https://shecodes-ai-poem-generator23.netlify.app/"taget>Netlify</a>
-    </footer>
-  </div>
+      <footer>
+        This AI poem Generator was coded by pontsho lekoto and is open sourced
+        on
+        <a href="https://github.com/michelle23-code/poem-generator"> GitHub</a>
+        and is hosted on
+        <a href="https://shecodes-ai-poem-generator23.netlify.app/" taget
+          >Netlify</a
+        >
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
